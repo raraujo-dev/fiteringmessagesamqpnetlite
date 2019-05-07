@@ -80,3 +80,14 @@ namespace Example
     }
 }
 ```
+Note: Ou need to declare on csproj file the AMQP.dll example below:
+
+```
+<ItemGroup>
+  <Reference Include="AMQP">
+          <HintPath>/home/raraujo/ferramentas/amq-dotnetcore/bin/netstandard2.0/AMQP.dll</HintPath>
+  </Reference>
+</ItemGroup>
+
+
+```
